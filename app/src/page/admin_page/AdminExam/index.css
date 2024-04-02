@@ -1,0 +1,11 @@
+.exam-container {
+  padding: 20px;
+}
+
+.exam-container .ant-table-row {
+  cursor: pointer;
+}
+
+.exam-container .ant-btn {
+  margin-right: 8px;
+}

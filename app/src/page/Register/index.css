@@ -1,0 +1,38 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../imgs/background.webp");
+  background-size: cover;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 500px; /* 限制最大宽度 */
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.register-card .register-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.register-form .ant-form-item {
+  text-align: center; /* 居中对齐 */
+}
+
+/* 调整按钮样式 */
+.register-form .button-container {
+  display: flex;
+  justify-content: center; /* 使按钮在中间对齐 */
+}
+
+/* 按钮和链接的样式 */
+.register-form .ant-btn {
+  margin: 0 10px; /* 增加按钮之间的间距 */
+}

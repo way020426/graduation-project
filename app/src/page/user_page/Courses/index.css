@@ -1,0 +1,70 @@
+.courses-container {
+  width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.courses-container .courses-card {
+  border-radius: 8px;
+}
+
+.courses-container .ant-card-head-title {
+  font-size: 24px;
+}
+
+.courses-container .filters {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.courses-container .filter-label {
+  margin-right: 40px;
+}
+
+.courses-container .filter-label {
+  margin-bottom: 20px;
+}
+
+.courses-container .ant-list-item {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.courses-container .ant-list-item-meta-title a {
+  color: #1890ff;
+}
+
+.courses-container .ant-list-item-meta-description {
+  font-style: italic;
+}
+
+.courses-container .ant-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.courses-container .ant-list-item-action {
+  margin-left: auto;
+}
+
+.courses-container .ant-list-item-meta-description {
+  margin-right: 20px; /* 为了给下载按钮留出空间 */
+}
+
+.courses-container .ant-list-item-meta-title a {
+  margin-right: 16px; /* 确保标题与描述有空间 */
+}
+
+.courses-container .ant-list-item-action a {
+  padding: 4px 8px;
+  background: #1890ff;
+  color: white;
+  border-radius: 4px;
+}
+
+.courses-container .ant-list-item-action a:hover {
+  background: #40a9ff;
+}

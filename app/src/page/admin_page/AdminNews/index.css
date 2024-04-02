@@ -1,0 +1,33 @@
+.news-table .ant-table-cell {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.news-table .ant-table-cell a {
+  white-space: nowrap;
+}
+
+.news-modal-form .ant-form-item {
+  margin-bottom: 12px;
+}
+
+.news-modal-form .ant-form-item-label > label {
+  font-weight: bold;
+}
+
+.news-modal {
+  max-width: 600px;
+}
+
+/* 模态框中的文本输入框和文本区域 */
+.news-modal .ant-input,
+.news-modal .ant-input-textarea {
+  min-width: 100%;
+}
+
+/* 按钮样式 */
+.news-modal .ant-form-item-control-input-content > button {
+  width: 100%;
+}

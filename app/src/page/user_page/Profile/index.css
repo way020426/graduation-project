@@ -1,0 +1,29 @@
+.user-profile-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* 控制两个卡片之间的间隔 */
+}
+
+.user-info-card,
+.user-progress-card {
+  flex: 1;
+  margin: 20px; /* 添加外边距 */
+  display: flex;
+  flex-direction: column; /* 垂直排列内容 */
+}
+
+.user-info-card .ant-descriptions-item-content {
+  text-align: left; /* 对齐文本到左边 */
+}
+
+/* 按钮样式调整 */
+.user-info-card .ant-btn-primary {
+  margin-top: 20px; /* 顶部外边距 */
+  align-self: center; /* 水平居中 */
+  margin-right: 30px;
+}
+
+/* 让饼状图水平、垂直居中显示 */
+.recharts-wrapper {
+  margin: 0 auto;
+}

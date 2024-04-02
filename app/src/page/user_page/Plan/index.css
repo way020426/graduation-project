@@ -1,0 +1,57 @@
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.plan-list {
+  flex: 1;
+  margin-right: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plan-calendar {
+  width: 370px;
+  height: 370px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ant-list-item {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0;
+}
+
+.ant-list-item:last-child {
+  border-bottom: none;
+}
+
+.ant-list-item-action > li {
+  margin: 0 8px;
+}
+
+.button-add {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.button-add:hover {
+  background-color: #45a049;
+}
+
+.button-edit {
+  color: #ffc107;
+}
+
+.button-delete {
+  color: #f44336;
+}

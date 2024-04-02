@@ -1,0 +1,67 @@
+.site-layout .site-content-row {
+  margin: 20px 0;
+}
+
+/* 重置 antd 的 List 样式 */
+.site-layout .ant-list-bordered .ant-list-item {
+  border-bottom: 1px solid #e8e8e8 !important;
+}
+
+.site-layout .ant-card-head-title {
+  font-size: 24px;
+}
+
+/* 调整卡片样式 */
+.ant-card {
+  margin-top: 20px;
+}
+
+/* 适应内容的日历卡片 */
+.ant-card .ant-picker-calendar {
+  padding: 10px;
+}
+
+/* 添加底部空间 */
+.ant-card + .ant-card {
+  margin-top: 16px;
+}
+
+/* 自定义按钮样式 */
+.ant-btn {
+  margin-bottom: 12px;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.ant-btn-danger {
+  background-color: #ff4d4f;
+  border-color: #ff4d4f;
+}
+
+/* 自定义表格样式 */
+.plan-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.plan-details span {
+  flex: 1;
+  text-align: center;
+}
+
+.plan-details span:first-child {
+  text-align: left;
+}
+
+.plan-details span:last-child {
+  text-align: center;
+}
+
+.ant-card-head-title {
+  cursor: pointer;
+}

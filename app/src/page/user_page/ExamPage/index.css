@@ -1,0 +1,66 @@
+.exam-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.exam-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.timer {
+  font-size: 20px;
+  color: red;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.exam-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.question {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.question-text {
+  margin-bottom: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.submit-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.exit-button {
+  position: fixed; /* 固定定位 */
+  top: 20px; /* 距离顶部20像素 */
+  right: 20px; /* 距离右侧20像素 */
+  background-color: #f44336; /* 按钮背景颜色 */
+  color: white; /* 文本颜色 */
+  border: none; /* 无边框 */
+  padding: 10px 20px; /* 内边距 */
+  border-radius: 5px; /* 圆角边框 */
+  cursor: pointer; /* 鼠标悬停时的手形光标 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* 阴影效果 */
+  z-index: 1000; /* 确保按钮在其他内容上方 */
+}
+
+.exit-button:hover {
+  background-color: #d32f2f; /* 鼠标悬停时的背景颜色 */
+}

@@ -1,0 +1,43 @@
+.news-container {
+  width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-card {
+  border-radius: 10px;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.news-title {
+  font-size: 18px;
+  color: #333;
+}
+
+.news-list-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.news-title a {
+  color: #1890ff;
+}
+
+.news-title a:hover {
+  color: #40a9ff;
+  text-decoration: underline;
+}
+
+/* 最后一条新闻去掉下边框 */
+.news-list-item:last-child {
+  border-bottom: none;
+}

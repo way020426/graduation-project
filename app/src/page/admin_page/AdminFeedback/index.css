@@ -1,0 +1,11 @@
+.feedback-table-container {
+  padding: 20px;
+  background: #fff;
+}
+
+.feedback-table-container .ant-table-cell {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
